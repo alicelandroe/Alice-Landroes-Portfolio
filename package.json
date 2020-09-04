@@ -1,0 +1,23 @@
+{
+  "name": "alice-landroes-portfolio",
+  "version": "1.0.0",
+  "description": "The portfolio of Alice Landroe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass sass/index.scss public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicelandroe/Alice-Landroes-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicelandroe/Alice-Landroes-Portfolio/issues"
+  },
+  "homepage": "https://github.com/alicelandroe/Alice-Landroes-Portfolio#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

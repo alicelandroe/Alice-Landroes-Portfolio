@@ -63,3 +63,8 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# compiled CSS
+
+*.css
+*.css.map
