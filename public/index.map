@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../sass/index.scss",
+		"../sass/_text.scss"
+	],
+	"sourcesContent": [
+		"@import 'text';",
+		"h1 {\n    color: blue;\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CACd"
+}
