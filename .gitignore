@@ -66,5 +66,5 @@ node_modules/
 
 # compiled CSS
 
-*.css
-*.css.map
+public/styles.css
+public/styles.css.map
