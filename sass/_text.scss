@@ -7,9 +7,12 @@ h1 {
 .mobile-nav-items {
     text-align: center;
     margin-top: 23vh;
-    p {
+    a {
+        display: block;
         margin: 0px;
         padding: 15px 10px;
+        text-decoration: none;
+        color: black;
         &:hover {
             color: crimson;
             // TODO: make pretty with font and colours on normal and hover
