@@ -10,5 +10,9 @@ h1 {
     p {
         margin: 0px;
         padding: 15px 10px;
+        &:hover {
+            color: crimson;
+            // TODO: make pretty with font and colours on normal and hover
+        }
     }
 }
