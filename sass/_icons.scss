@@ -1,4 +1,3 @@
-
 .hamburger {
     width: 10%;
     margin: 20px 0px 0px 20px;
@@ -8,4 +7,14 @@
     margin-top: 10px;
 
     border-top: solid 1px black;
+}
+
+.open-hamburger {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: cadetblue;
 }
