@@ -3,22 +3,22 @@ const hamburger = document.querySelector('.hamburger');
 const openHamburger = document.querySelector('.open-hamburger');
 
 function openHamburgerMenu() {
-    openHamburger.style.display = 'block';
+    openHamburger.style.left = '0vw';
     hamburger.classList.add('is-active');
 }
 
 function closeHamburgerMenu() {
-    openHamburger.style.display = '';
+    openHamburger.style.left = '-100vw';
     hamburger.classList.remove('is-active');
 }
 
 function toggleHamburgerMenu() {
-    const isClosed = openHamburger.style.display === '';
+    const isOpen = openHamburger.style.left === '0vw';
 
-    if (isClosed) {
-        openHamburgerMenu();
-    } else {
+    if (isOpen) {
         closeHamburgerMenu();
+    } else {
+        openHamburgerMenu();
     }
 }
 
