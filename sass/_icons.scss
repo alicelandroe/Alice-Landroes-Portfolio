@@ -1,11 +1,13 @@
 .hamburger {
     width: 10%;
     margin: 20px 0px 0px 20px;
+    position: absolute;
+    top: 0;
+    z-index: 11;
 }
 
 .hamburger-line {
     margin-top: 10px;
-
     border-top: solid 1px black;
 }
 
@@ -15,7 +17,7 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 1000;
+    z-index: 10;
     background-color: cadetblue;
 }
 
