@@ -20,7 +20,6 @@
     height: 100vh;
     z-index: 10;
     background-color: darksalmon;
-    box-shadow: 107px 0px 0px 6px rgba(148, 148, 148, 0.2);
 }
 
 .close-hamburger {
@@ -28,4 +27,20 @@
     font-size: 30px;
     width: 10%;
     text-align: center;
+}
+
+.gray-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.0;
+    background-color: darksalmon;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.gray-overlay--show {
+    opacity: 0.3;
 }
