@@ -2,6 +2,7 @@
 const hamburger = document.querySelector('.hamburger');
 const openHamburger = document.querySelector('.open-hamburger');
 const grayOverlay = document.querySelector('.gray-overlay');
+const body = document.querySelector('body');
 
 function openHamburgerMenu() {
     openHamburger.style.left = '0vw';
@@ -25,7 +26,19 @@ function toggleHamburgerMenu() {
     }
 }
 
+const closeHamburgerMenuOnClickOutside = e => {
+    const outsideHamburgerMenu = e.target.classList.contains('gray-overlay');
+    const menuIsOpen = hamburger.classList.contains('is-active');
+    if (outsideHamburgerMenu && menuIsOpen)
+    {
+        closeHamburgerMenu();
+    }
+}
+
 hamburger.addEventListener('click', toggleHamburgerMenu); 
+
+document.addEventListener('click', closeHamburgerMenuOnClickOutside);
+
 // END: HAMBURGER MENU
 
 
