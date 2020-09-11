@@ -37,15 +37,18 @@
     position: absolute;
     left: 29%;
     top: -20%;
+    overflow-x: auto;
 }
 
 .middle-blob  {
     width: 330px;
     height: 337px;
     position: absolute;
-    left: -27%;
-    top: 40%;
+    left: -42%;
+    top: 23%;
+    overflow: hidden;
 }
+
 .big-blob path {
     animation: big-blob 25s linear infinite;
 }
