@@ -2,7 +2,6 @@ h1 {
     color: black;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
-    margin-top: 40vh;
     margin-bottom: 0px;
     font-size: 1.8em;
     position: relative;
@@ -15,9 +14,16 @@ h2 {
     font-size: 12px;
     margin: 0px;
     padding-top: 0.5rem;
-    padding-bottom: 50px;
     position: relative;
     z-index: 110;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 16%;
+    padding-top: 126px;
 }
 
 .blob-text {
