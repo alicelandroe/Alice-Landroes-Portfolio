@@ -4,6 +4,9 @@
     position: absolute;
     top: 0;
     z-index: 1100;
+    @media only screen and (min-width: $break-tablet) {
+        display: none;
+    }
 }
 
 .hamburger-line {
@@ -43,4 +46,32 @@
 
 .gray-overlay--show {
     opacity: 0.3;
+}
+
+// Tablet size and up:
+
+.nav-items {
+    display: none;
+    @media only screen and (min-width: $break-tablet) {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        & a {
+            font-family: 'Quicksand', sans-serif;
+            padding-top: 35px;
+            padding-right: 40px;
+            text-decoration: none;
+            color: black;
+        }
+        & :first-child {
+            margin-right: auto;
+            padding-left: 40px;
+        }
+    }
+    @media only screen and (min-width: $break-desktop) {
+        & a {
+            padding-right: 60px;
+            font-weight: 400;
+        }
+    }
 }

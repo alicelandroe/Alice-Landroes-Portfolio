@@ -61,6 +61,7 @@ var morphing = anime({
 	loop: true
 });
 
+
 var colorChange = anime({
     targets: "stop",
     stopColor: [ { value: "#E2CFCF" }, { value: "#E7D69C" }, { value: "#BDCEC1" }, { value: "#B6C4D5" }, { value: "#BBAED5" }, { value: "#BDCEC1" }, { value: "#E3C4AC" }, { value: "#E2CFCF" }],

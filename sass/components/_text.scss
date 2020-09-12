@@ -6,16 +6,22 @@ h1 {
     font-size: 1.8em;
     position: relative;
     z-index: 100;
+    @media only screen and (min-width: $break-small-tablet) {
+        font-size: 2em;
+    }
 }
 
 h2 {
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
     margin: 0px;
     padding-top: 0.5rem;
     position: relative;
     z-index: 110;
+    @media only screen and (min-width: $break-small-tablet) {
+        font-size: 1em;
+    }
 }
 
 .title {
