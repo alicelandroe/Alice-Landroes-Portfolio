@@ -54,3 +54,13 @@ h2 {
         }
     }
 }
+
+.seeking-internship {
+    @media only screen and (min-width: $break-small-tablet) {
+        width: 84%;
+        /* font-family: 'Julius Sans One', sans-serif; */
+        font-family: 'Quicksand', sans-serif;
+        text-align: right;
+        margin-top: 450px;
+    }
+}
