@@ -1,6 +1,6 @@
 h1 {
     color: black;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: $primary-font;
     text-align: center;
     margin-bottom: 0px;
     font-size: 1.8em;
@@ -13,7 +13,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: $primary-font;
     font-size: 0.8em;
     margin: 0px;
     padding-top: 0.5rem;
@@ -42,7 +42,7 @@ h2 {
     text-align: center;
     margin-top: 23vh;
     a {
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: $primary-font;
         display: block;
         margin: 0px;
         padding: 15px 10px;
@@ -59,7 +59,7 @@ h2 {
     @media only screen and (min-width: $break-small-tablet) {
         width: 84%;
         /* font-family: 'Julius Sans One', sans-serif; */
-        font-family: 'Quicksand', sans-serif;
+        font-family: $secondary-font;
         text-align: right;
         margin-top: 450px;
     }

@@ -1,0 +1,36 @@
+.home {
+    padding-top: 100vh;
+    font-family: $secondary-font;
+
+    &__introduction,
+    &__latest-projects {
+        padding: 0 30px;
+        text-align: center;;
+
+        svg g {
+            background-image: url(https://static.toiimg.com/photo/msid-58515713,width-96,height-65.cms);
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 0.9rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__latest-projects {
+        margin-top: 70px;
+    }
+}
+
+.down-chevron {
+    position: absolute;
+    bottom: 50px;
+    right: calc(50% - 20px);
+    width: 30px;
+    height: 30px;
+    fill: #999;
+}
