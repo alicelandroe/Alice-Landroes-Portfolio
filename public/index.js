@@ -63,11 +63,10 @@ var morphing = anime({
 
 
 var colorChange = anime({
-    targets: "stop",
+    targets: "#grad1 stop",
     stopColor: [ { value: "#E2CFCF" }, { value: "#E7D69C" }, { value: "#BDCEC1" }, { value: "#B6C4D5" }, { value: "#BBAED5" }, { value: "#BDCEC1" }, { value: "#E3C4AC" }, { value: "#E2CFCF" }],
     duration: 30000,
     easing: 'easeInOutSine',
     direction: 'infinite alternate',
     loop: true
-}
-)
+})
