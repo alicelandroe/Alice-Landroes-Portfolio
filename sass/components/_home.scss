@@ -5,7 +5,7 @@
     &__introduction,
     &__latest-projects {
         padding: 0 30px;
-        text-align: center;;
+        text-align: center;
 
         svg g {
             background-image: url(https://static.toiimg.com/photo/msid-58515713,width-96,height-65.cms);
@@ -23,6 +23,18 @@
 
     &__latest-projects {
         margin-top: 70px;
+    }
+
+    &__internship {
+        padding: 0 30px;
+        text-align: center;
+
+        margin-top: 80px;
+
+        p {
+            font-size: 0.9rem;
+            padding-bottom: 0.5rem;
+        }
     }
 }
 
