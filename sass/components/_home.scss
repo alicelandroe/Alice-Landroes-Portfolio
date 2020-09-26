@@ -2,23 +2,39 @@
     padding-top: 100vh;
     font-family: $secondary-font;
 
+
+    &__introduction,
+    &__latest-projects,
+    &__internship {
+        p {
+            font-size: 0.9rem;
+            padding-bottom: 0.1rem;
+        }
+        @media only screen and (min-width: $break-small-tablet) {
+            width: 60%;
+            margin: 0 auto;
+            h3 {
+                font-size: 21px;
+            }
+            p {
+                font-size: 1.1rem;
+                padding-bottom: 1.3rem;
+            }
+        }
+    }
+
     &__introduction,
     &__latest-projects {
         padding: 0 30px;
         text-align: center;
-
-        svg g {
-            background-image: url(https://static.toiimg.com/photo/msid-58515713,width-96,height-65.cms);
-        }
-
+        padding-bottom: 130px;
         h3 {
             margin: 0;
         }
+    }
 
-        p {
-            font-size: 0.9rem;
-            padding-bottom: 1rem;
-        }
+    &__introduction {
+        padding-top: 40px;
     }
 
     &__img-container {
@@ -39,9 +55,9 @@
         text-align: center;
 
         margin-top: 80px;
+        margin-bottom: 120px;
 
         p {
-            font-size: 0.9rem;
             padding-bottom: 0.5rem;
         }
     }

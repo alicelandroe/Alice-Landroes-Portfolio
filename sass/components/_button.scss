@@ -1,5 +1,5 @@
 .button {
-    background-color: #E2CFCF;
+    background-color: #b69191;
     padding: 10px 15px;
     border-radius: 6px;
     font-family: $primary-font;
@@ -7,4 +7,7 @@
     font-size: 0.8rem;
     color: #332e2e;
     text-decoration: none;
+    @media only screen and (min-width: $break-small-tablet) {
+        font-size: 1rem;
+    }
 }
