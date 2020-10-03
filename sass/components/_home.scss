@@ -9,6 +9,7 @@
         p {
             font-size: 0.9rem;
             padding-bottom: 0.1rem;
+            margin-bottom: 23px;    
         }
         @media only screen and (min-width: $break-small-tablet) {
             width: 60%;
@@ -21,6 +22,9 @@
                 padding-bottom: 1.3rem;
             }
         }
+        @media only screen and (min-width: $break-desktop) {
+            width: 40%;
+        }
     }
 
     &__introduction,
@@ -30,6 +34,22 @@
         padding-bottom: 130px;
         h3 {
             margin: 0;
+        }
+        @media only screen and (min-width: $break-desktop) {
+            h3 {
+                font-size: 24px;
+            }
+        }
+        @media only screen and (min-width: $break-desktop) {
+            display: flex;
+            text-align: left;
+                p {
+                    margin-bottom: 17px;
+                    margin-right: 0;
+                }
+                &__content {
+                    padding-left: 40px;
+                }
         }
     }
 
@@ -43,6 +63,10 @@
         padding-bottom: 20px;
         img {
             width: 100%;
+        }
+        @media only screen and (min-width: $break-desktop) {
+            min-width: 25%;
+            max-width: 30%;
         }
     }
 
