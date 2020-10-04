@@ -19,11 +19,11 @@ h2 {
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: wheat;
+    background-color: rgb(216, 216, 216);
 
-    &__picture {
-        background-color: yellowgreen;
-        padding: 100px;
+    &__image {
+        width: 100%;
+        background-color: gainsboro;
     }
 
     &__title {
