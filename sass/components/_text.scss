@@ -1,7 +1,8 @@
 h1 {
     color: black;
     font-family: $primary-font;
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 0px;
     font-size: 1.8em;
     position: relative;
@@ -25,7 +26,7 @@ h2 {
 
 .title {
     position: absolute;
-    text-align: center;
+    text-align: left;
     width: 100%;
     top: 16%;
     padding-top: 126px;
