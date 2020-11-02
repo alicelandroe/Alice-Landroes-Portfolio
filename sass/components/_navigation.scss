@@ -53,8 +53,9 @@
 .nav-items {
     display: none;
     @media only screen and (min-width: $break-tablet) {
-        width: 79%;
-        margin: 0 auto;
+        height: 80px;
+        align-items: center;
+        padding-right: 240px;
         display: flex;
         & a {
             font-family: 'Quicksand', sans-serif;
