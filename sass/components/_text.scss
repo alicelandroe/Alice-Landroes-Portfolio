@@ -10,6 +10,10 @@ h1 {
     @media only screen and (min-width: $break-small-tablet) {
         font-size: 2em;
     }
+
+    @media only screen and (min-width: $break-tablet) {
+        font-size: 1.8em;
+    }
 }
 
 h2 {
@@ -22,6 +26,10 @@ h2 {
     @media only screen and (min-width: $break-small-tablet) {
         font-size: 1em;
     }
+
+    @media only screen and (min-width: $break-tablet) {
+        font-size: 1.3em;
+    }
 }
 
 .title {
@@ -30,6 +38,11 @@ h2 {
     width: 100%;
     top: 16%;
     padding-top: 126px;
+
+    @media only screen and (min-width: $break-tablet) {
+        width: 48%;
+        left: 30%;
+    }
 }
 
 .blob-text {
