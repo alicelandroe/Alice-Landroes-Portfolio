@@ -1,9 +1,21 @@
 .blob {
-    position: absolute;
-    top: 16%;
-  }
+  position: absolute;
+  top: 16%;
+}
 
 .bottom-shapes {
   position: absolute;
   bottom: 0;
+}
+
+#circle-blob-svg {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+#corner-blob-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
