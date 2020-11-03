@@ -1,19 +1,50 @@
 // HAMBURGER MENU 
+const header = document.querySelector('header');
+const headerHtml = `
+    <!-- hamburger menu -->
+    <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <!-- hamburger menu opened -->
+    <div class="open-hamburger">
+        <div class="mobile-nav-items">
+        <a href="index.html">Hem</a>
+        <a href="about.html">Om mig</a>
+        <a href="projects.html">Projekt</a>
+        <a href="contact.html">Kontakt</a>
+        </div>
+    </div>
+
+    <!-- navigation: tablet size and up -->
+    <div class="nav-items">
+        <div>
+        <a href="index.html">Alice Landrö</a>
+        </div>
+        <div>
+        <a href="about.html">Om mig</a>
+        <a href="uxdesign.html">Projekt</a>
+        <!-- <a href="code.html">Kod</a> -->
+        <a id="contact-link" href="contact.html">Kontakt &#10132; </a>
+        </div>
+    </div>
+`;
+
+header.innerHTML = headerHtml;
 const hamburger = document.querySelector('.hamburger');
 const openHamburger = document.querySelector('.open-hamburger');
-const grayOverlay = document.querySelector('.gray-overlay');
 const body = document.querySelector('body');
 
 function openHamburgerMenu() {
     openHamburger.style.left = '0vw';
     hamburger.classList.add('is-active');
-    grayOverlay.classList.add('gray-overlay--show');
 }
 
 function closeHamburgerMenu() {
     openHamburger.style.left = '-100vw';
     hamburger.classList.remove('is-active');
-    grayOverlay.classList.remove('gray-overlay--show');
 }
 
 function toggleHamburgerMenu() {
@@ -26,18 +57,7 @@ function toggleHamburgerMenu() {
     }
 }
 
-const closeHamburgerMenuOnClickOutside = e => {
-    const outsideHamburgerMenu = e.target.classList.contains('gray-overlay');
-    const menuIsOpen = hamburger.classList.contains('is-active');
-    if (outsideHamburgerMenu && menuIsOpen)
-    {
-        closeHamburgerMenu();
-    }
-}
-
 hamburger.addEventListener('click', toggleHamburgerMenu); 
-
-document.addEventListener('click', closeHamburgerMenuOnClickOutside);
 
 // END: HAMBURGER MENU
 
