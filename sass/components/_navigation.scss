@@ -69,10 +69,13 @@
             padding-left: 40px;
         }
     }
-    @media only screen and (min-width: $break-desktop) {
-        & a {
-            padding-right: 60px;
-            font-weight: 400;
-        }
-    }
+}
+
+#contact-link {
+  @media (min-width: $break-tablet) {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 10;
+  }
 }
