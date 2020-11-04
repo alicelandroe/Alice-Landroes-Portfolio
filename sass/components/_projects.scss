@@ -10,8 +10,19 @@
 h2 {
     width: 80%;
     margin: 0 auto;
+    @media only screen and (min-width: $break-tablet) {
+        margin-bottom: 25px;
+    }
 }
 
+.project-cards {
+    @media only screen and (min-width: $break-tablet) {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
 
 // Project card
 .project {
@@ -21,6 +32,11 @@ h2 {
     margin-bottom: 40px;
     border: 1px gray solid;
     // background-color: rgb(216, 216, 216);
+
+    @media only screen and (min-width: $break-tablet) {
+        width: 30%;
+        margin: 0;
+    }
 
     &__image {
         width: 100%;
