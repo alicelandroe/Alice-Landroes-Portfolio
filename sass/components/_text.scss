@@ -32,6 +32,11 @@ h2 {
     }
 }
 
+p {
+    font-family: $secondary-font;
+    line-height: 1.30;
+}
+
 .title {
     position: absolute;
     text-align: left;
