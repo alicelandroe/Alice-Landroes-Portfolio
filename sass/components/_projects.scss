@@ -30,21 +30,32 @@ h2 {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 40px;
-    border: 1px gray solid;
+    display: flex;
     // background-color: rgb(216, 216, 216);
 
-    @media only screen and (min-width: $break-tablet) {
-        width: 30%;
-        margin: 0;
-    }
-
     &__image {
-        width: 100%;
-        background-color: gainsboro;
+        width: 50%;
+        bottom: 0;
+        display: flex;
+        align-items: flex-end;
     }
 
     &__title {
         margin: 0px;
-        padding: 10px 0px 20px 10px;
+        padding: 70px 0px 0px 20px;
+    }
+
+    &__description {
+        padding: 0px 0px 7px 20px
+    }
+
+    &__werkstad {
+        background-color: #EAAB27;
+    }
+
+    @media only screen and (min-width: $break-tablet) {
+        width: 30%;
+        margin: 0;
+        height: 260px;
     }
 }

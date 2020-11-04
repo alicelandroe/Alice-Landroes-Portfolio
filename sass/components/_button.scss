@@ -12,14 +12,15 @@
     }
 }
 
-.big-button {
-    background-color: #b69191;
+.project__button {
+    background-color: #31454D;
+    border-radius: 30px;
     border: none;
-    color: white;
-    padding: 15px 32px;
     text-align: center;
+    color: white;
+    padding: 10px 32px;
+    width: 40%;
+    display: block;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 100%;
+    margin-left: 20px;
 }
