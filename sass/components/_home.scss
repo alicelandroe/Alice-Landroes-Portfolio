@@ -1,16 +1,19 @@
 .home {
   &__title {
     font-family: $secondary-font;
-    position: absolute;
     text-align: left;
-    top: 16%;
-    padding-top: 126px;
+    padding-top: 30vh;
     margin-left: 78px;
     margin-right: 50px;
 
     @media only screen and (min-width: $break-tablet) {
       width: 48%;
-      left: 30%;
+      max-width: 400px;
+      margin-left: 30%;
+    }
+
+    h2 {
+      font-size: 1.1rem;
     }
   }
 }
