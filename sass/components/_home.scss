@@ -9,7 +9,7 @@
     @media only screen and (min-width: $break-tablet) {
       width: 48%;
       max-width: 400px;
-      margin-left: 30%;
+      margin-left: calc(90% - (255px + 10vw + 60px + 53px));
     }
 
     h2 {

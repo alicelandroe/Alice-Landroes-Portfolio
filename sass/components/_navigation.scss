@@ -54,19 +54,24 @@
     display: none;
     @media only screen and (min-width: $break-tablet) {
         height: 80px;
+        width: 80%;
+        margin: 0 auto;
         align-items: center;
-        padding-right: 255px;
         display: flex;
+        justify-content: space-between;
         & a {
             font-family: 'Quicksand', sans-serif;
             padding-top: 35px;
-            padding-right: 40px;
             text-decoration: none;
             color: black;
         }
-        & :first-child {
-            margin-right: auto;
-            padding-left: 40px;
+
+        &__page-links {
+            padding-right: 255px;
+
+            :first-child {
+                padding-right: 10vw;
+            }
         }
     }
 }

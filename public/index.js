@@ -21,13 +21,13 @@ const headerHtml = `
     <!-- navigation: tablet size and up -->
     <div class="nav-items">
         <div>
-        <a href="index.html">Alice Landrö</a>
+            <a href="index.html">Alice Landrö</a>
         </div>
-        <div>
-        <a href="about.html">Om mig</a>
-        <a href="projects.html">Projekt</a>
+        <div class="nav-items__page-links">
+            <a href="about.html">Om mig</a>
+            <a href="projects.html">Projekt</a>
+        </div>
         <a id="contact-link" href="contact.html">Kontakt &#10132; </a>
-        </div>
     </div>
 `;
 
