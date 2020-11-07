@@ -1,6 +1,5 @@
 
 h2 {
-    width: 80%;
     margin: 0 auto;
     @media only screen and (min-width: $break-tablet) {
         margin-bottom: 25px;
@@ -12,14 +11,11 @@ h2 {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        width: 80%;
     }
 }
 
 // Project card
 .project {
-    width: 80%;
-    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 40px;
     display: flex;
@@ -54,10 +50,4 @@ h2 {
         margin: 0;
         height: 260px;
     }
-}
-
-.project-page__title {
-    margin-top: 52px;
-    color: #222;
-    display: block;
 }
