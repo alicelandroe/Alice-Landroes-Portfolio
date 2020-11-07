@@ -12,7 +12,7 @@
   }
 
   .project__image {
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: flex-end;
   }
@@ -32,6 +32,7 @@
   .project__button {
     background-color: $dark-gray;
     border-radius: 30px;
+    width: 80%;
     border: none;
     text-align: center;
     color: lighten($color: $dark-gray, $amount: 60%);
