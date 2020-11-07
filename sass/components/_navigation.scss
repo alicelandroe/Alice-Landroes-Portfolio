@@ -74,6 +74,16 @@
             }
         }
     }
+
+    @media only screen and (min-width: $break-desktop) {
+        &__page-links {
+            padding-right: 200px;
+
+            :first-child {
+                padding-right: 6vw;
+            }
+        }
+    }
 }
 
 #contact-link {
