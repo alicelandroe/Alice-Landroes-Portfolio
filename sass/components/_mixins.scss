@@ -3,11 +3,12 @@
   margin-bottom: 40px;
   display: flex;
   border-radius: 5px;
-  padding: 20px 0 0 20px;
+  padding: 20px 0 0 0;
   background-color: $background-color;
 
   .project__text {
     padding-bottom: 20px;
+    padding-left: 15px;
   }
 
   .project__image {
@@ -18,13 +19,12 @@
 
   .project__title {
     margin: 0px;
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0 0 0;
     font-family: $primary-font;
     font-weight: normal;
   }
 
   .project__description {
-    padding: 0px 0px 7px 20px;
     margin-top: 4px;
     font-size: 0.9rem;
   }
@@ -37,7 +37,6 @@
     color: lighten($color: $dark-gray, $amount: 60%);
     display: block;
     text-decoration: none;
-    margin-left: 20px;
     padding: 5px;
 
     @media only screen and (min-width: $break-tablet) {
