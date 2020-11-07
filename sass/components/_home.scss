@@ -11,6 +11,10 @@
       max-width: 400px;
       margin-left: calc(90% - (255px + 10vw + 60px + 53px));
     }
+    
+    @media only screen and (min-width: $break-desktop) {
+      margin-left: 420px;
+    }
 
     h2 {
       font-size: 1.1rem;
