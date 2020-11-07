@@ -16,38 +16,11 @@ h2 {
 
 // Project card
 .project {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    display: flex;
-    // background-color: rgb(216, 216, 216);
-
-    &__image {
-        width: 50%;
-        bottom: 0;
-        display: flex;
-        align-items: flex-end;
-    }
-
-    &__title {
-        margin: 0px;
-        padding: 70px 0px 0px 20px;
-    }
-
-    &__description {
-        padding: 0px 0px 7px 20px
-    }
-
     &__werkstad {
-        background-color: #EAAB27;
+        @include project-card(#EAAB27);
     }
 
     &__xperience {
-        background-color: #B8A2D8;
-    }
-
-    @media only screen and (min-width: $break-tablet) {
-        width: 30%;
-        margin: 0;
-        height: 260px;
+        @include project-card(#B8A2D8);
     }
 }

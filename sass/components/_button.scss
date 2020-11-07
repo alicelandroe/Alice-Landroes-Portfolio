@@ -11,19 +11,3 @@
         font-size: 1rem;
     }
 }
-
-.project__button {
-    background-color: #31454D;
-    border-radius: 30px;
-    border: none;
-    text-align: center;
-    color: white;
-    display: block;
-    text-decoration: none;
-    margin-left: 20px;
-
-    @media only screen and (min-width: $break-tablet) {
-        padding: 10px 32px;
-        width: 40%;
-    }
-}
