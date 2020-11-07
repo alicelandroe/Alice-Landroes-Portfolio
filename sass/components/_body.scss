@@ -7,7 +7,7 @@ body {
 .page-content {
     margin: 0 auto;
     width: 80%;
-    max-width: 335px;
+    max-width: 300px;
 
     @media only screen and (min-width: $break-small-tablet) {
         max-width: 500px;
