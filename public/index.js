@@ -117,7 +117,7 @@ const uxProjectsSpecifications = [
         link: "xperience.html",
         title: "Xperience",
         description: "Upplev hemmabio, på riktigt",
-        image: "werkstad-hand-photo.png",
+        image: "xperience-card-image.png",
         imageAlt: "werkstad app picture"
     },
     {
