@@ -78,3 +78,52 @@ if (footer) {
     footer.classList.add('footer');
     footer.innerHTML = footerHtml
 }
+
+const uxProjects = document.querySelector("#ux-projects");
+
+function createProjectCard(project) {
+    return `
+        <div class="project project__${project.name}">
+            <div class="project__text">
+                <h3 class="project__title">${project.title}</h3>
+                <p class="project__description">
+                    ${project.description}
+                </p>
+                <a href="${project.name}.html" class="project__button"
+                >Se projekt</a
+                >
+            </div>
+            <div class="project__image">
+                <img src="images/${project.image}" alt="${project.imageAlt}" />
+            </div>
+        </div>
+    `
+}
+
+const uxProjectsSpecifications = [
+    {
+        name: "werkstad",
+        title: "Werkstad",
+        description: "Träffa folk som vill göra världen bättre",
+        image: "werkstad-hand-photo.png",
+        imageAlt: "werkstad app picture"
+    },
+    {
+        name: "xperience",
+        title: "Xperience",
+        description: "Upplev hemmabio, på riktigt",
+        image: "werkstad-hand-photo.png",
+        imageAlt: "werkstad app picture"
+    },
+    {
+        name: "werkstad",
+        title: "Werkstad",
+        description: "Träffa folk som vill göra världen bättre",
+        image: "werkstad-hand-photo.png",
+        imageAlt: "werkstad app picture"
+    },
+]
+
+uxProjectsSpecifications.forEach(p => {
+    uxProjects.innerHTML += createProjectCard(p);
+})
