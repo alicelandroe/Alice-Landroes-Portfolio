@@ -10,20 +10,22 @@
       width: 48%;
       max-width: 400px;
       margin-left: calc(90% - (255px + 10vw + 60px + 53px));
+      font-size: 2.6rem;
+      line-height: 1.2;
     }
     
     @media only screen and (min-width: $break-desktop) {
       margin-left: 420px;
       padding-top: 20vh;
+      font-size: 1.4rem;
+      line-height: 1.4;
     }
 
     h1 {
-      font-size: 2.6rem;
       line-height: 1.2;
     }
 
     h2 {
-      font-size: 1.4rem;
       line-height: 1.4;
     }
   }
