@@ -27,7 +27,9 @@ const headerHtml = `
             <a href="about.html">Om mig</a>
             <a href="projects.html">Projekt</a>
         </div>
-        <a id="contact-link" href="contact.html">Kontakt &#10132; </a>
+        <div id="contact-link">
+            <a href="contact.html">Kontakt &#10132; </a>
+        </div>
     </div>
 `;
 
