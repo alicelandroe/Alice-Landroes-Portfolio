@@ -80,6 +80,7 @@ if (footer) {
 }
 
 const uxProjects = document.querySelector("#ux-projects");
+const codeProjects = document.querySelector("#code-projects");
 
 function createProjectCard(project) {
     return `
@@ -89,7 +90,7 @@ function createProjectCard(project) {
                 <p class="project__description">
                     ${project.description}
                 </p>
-                <a href="${project.name}.html" class="project__button"
+                <a href="${project.link}" class="project__button"
                 >Se projekt</a
                 >
             </div>
@@ -103,6 +104,7 @@ function createProjectCard(project) {
 const uxProjectsSpecifications = [
     {
         name: "werkstad",
+        link: "werkstad.html",
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
         image: "werkstad-hand-photo.png",
@@ -110,6 +112,7 @@ const uxProjectsSpecifications = [
     },
     {
         name: "xperience",
+        link: "xperience.html",
         title: "Xperience",
         description: "Upplev hemmabio, på riktigt",
         image: "werkstad-hand-photo.png",
@@ -117,6 +120,7 @@ const uxProjectsSpecifications = [
     },
     {
         name: "werkstad",
+        link: "werkstad.html",
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
         image: "werkstad-hand-photo.png",
@@ -124,6 +128,37 @@ const uxProjectsSpecifications = [
     },
 ]
 
+const codeProjectsSpecifications = [
+    {
+        name: "wheel-of-success",
+        link: "https://wheel-of-success-6577a.web.app/",
+        title: "Wheel of Success",
+        description: "lorem ipson la da lita do",
+        image: "wheel-of-success.png",
+        imageAlt: "Wheel of success"
+    },
+    {
+        name: "dashboard",
+        link: "https://web-app-bb3f1.web.app/",
+        title: "Web Dashboard",
+        description: "lorem ipson la da lita do",
+        image: "web-app.png",
+        imageAlt: "Web App Dashboard"
+    },
+    {
+        name: "api-project",
+        link: "https://api-directory-cd3cb.web.app/",
+        title: "API project",
+        description: "lorem ipson la da lita do",
+        image: "api.png",
+        imageAlt: "API project"
+    },
+]
+
 uxProjectsSpecifications.forEach(p => {
     uxProjects.innerHTML += createProjectCard(p);
+})
+
+codeProjectsSpecifications.forEach(p => {
+    codeProjects.innerHTML += createProjectCard(p);
 })

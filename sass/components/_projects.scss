@@ -23,4 +23,16 @@ h2 {
     &__xperience {
         @include project-card(#B8A2D8);
     }
+
+    &__wheel-of-success {
+        @include project-card(#B8A2D8);
+    }
+
+    &__api-project {
+        @include project-card(#B8A2D8);
+    }
+
+    &__dashboard {
+        @include project-card(#B8A2D8);
+    }
 }
