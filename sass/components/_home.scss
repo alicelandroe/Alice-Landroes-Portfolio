@@ -1,121 +1,16 @@
 .home {
-  padding-top: 100vh;
-  font-family: $secondary-font;
-  &__introduction,
-  &__latest-projects,
-  &__internship {
-    p {
-      font-size: 0.9rem;
-      padding-bottom: 0.1rem;
-      margin-bottom: 23px;
-    }
-    @media only screen and (min-width: $break-small-tablet) {
-      width: 60%;
-      margin: 0 auto;
-      h3 {
-        font-size: 21px;
-      }
-      p {
-        font-size: 1.1rem;
-        padding-bottom: 1.3rem;
-      }
-    }
-    @media only screen and (min-width: $break-desktop) {
-      width: 40%;
-    }
-  }
-
-  &__introduction,
-  &__latest-projects {
-    padding: 0 30px;
-    text-align: center;
-    padding-bottom: 130px;
-    h3 {
-      margin: 0;
-    }
-    @media only screen and (min-width: $break-desktop) {
-      h3 {
-        font-size: 24px;
-      }
-    }
-    @media only screen and (min-width: $break-desktop) {
-      display: flex;
-      text-align: left;
-      p {
-        margin-bottom: 17px;
-        margin-right: 0;
-      }
-      &__content {
-        padding-left: 40px;
-      }
-    }
-  }
-
-  &__introduction {
-    padding-top: 40px;
-  }
-
-  &__img-container {
-    width: 30%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    img {
-      width: 100%;
-    }
-    @media only screen and (min-width: $break-desktop) {
-      min-width: 25%;
-      max-width: 30%;
-    }
-  }
-
-  &__latest-projects {
-    margin-top: 70px;
-  }
-
-  &__internship {
-    padding: 0 30px;
-    text-align: left;
-
-    margin-top: 80px;
-    margin-bottom: 120px;
-
-    p {
-      padding-bottom: 0.5rem;
-    }
-  }
-
   &__title {
+    font-family: $secondary-font;
     position: absolute;
     text-align: left;
     top: 16%;
     padding-top: 126px;
-    margin-left: 20px;
+    margin-left: 78px;
+    margin-right: 50px;
 
     @media only screen and (min-width: $break-tablet) {
       width: 48%;
       left: 30%;
     }
-
-    h1 {
-      margin-bottom: 0px;
-      position: relative;
-      z-index: 100;
-    }
-
-    h2 {
-      margin: 0px;
-      padding-top: 0.5rem;
-      position: relative;
-      z-index: 110;
-    }
   }
-}
-
-.down-chevron {
-  position: absolute;
-  bottom: 40px;
-  right: calc(50% - 20px);
-  width: 20px;
-  height: 20px;
-  fill: #999;
 }

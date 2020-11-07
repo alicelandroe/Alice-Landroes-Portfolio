@@ -1,26 +1,26 @@
 h1 {
   font-family: $primary-font;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 
   @media only screen and (min-width: $break-small-tablet) {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   @media only screen and (min-width: $break-tablet) {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
 }
 
 h2 {
   font-family: $primary-font;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 
   @media only screen and (min-width: $break-small-tablet) {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   @media only screen and (min-width: $break-tablet) {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 }
 
