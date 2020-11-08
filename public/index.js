@@ -106,7 +106,7 @@ function createProjectCard(project) {
 const uxProjectsSpecifications = [
     {
         name: "werkstad",
-        link: "werkstad.html",
+        link: "project-werkstad.html",
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
         image: "werkstad-hand-photo.png",

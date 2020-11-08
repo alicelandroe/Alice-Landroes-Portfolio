@@ -35,6 +35,16 @@ h2 {
     margin-top: 50px;
 }
 
+.page-titles {
+  font-family: $primary-font;
+  font-weight: normal;
+  margin-top: 130px;
+
+  h1 {
+    margin-top: 3px;
+  }
+}
+
 p {
   font-family: $secondary-font;
   line-height: 1.3;
