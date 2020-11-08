@@ -36,6 +36,10 @@ h2 {
     &__dashboard {
         @include project-card(#B8A2D8);
     }
+
+    &__photo-gallery {
+        @include project-card(#B8A2D8);
+    }
 }
 
 .primary-image {

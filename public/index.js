@@ -133,10 +133,10 @@ const uxProjectsSpecifications = [
 const frontendProjectsSpecifications = [
     {
         name: "photo-gallery",
-        link: "https://wheel-of-success-6577a.web.app/", // TODO: Add correct link
+        link: "project-photogallery.html", // TODO: Add correct link
         title: "Interaktivt fotogalleri",
         description: "...med JavaScript och jQuery",
-        image: "wheel-of-success.png",
+        image: "photo-gallery.png",
         imageAlt: "Interaktivt fotogalleri"
     },
     {
