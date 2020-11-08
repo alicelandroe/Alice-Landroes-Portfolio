@@ -82,7 +82,7 @@ if (footer) {
 }
 
 const uxProjects = document.querySelector("#ux-projects");
-const codeProjects = document.querySelector("#code-projects");
+const frontendProjects = document.querySelector("#frontend-projects");
 
 function createProjectCard(project) {
     return `
@@ -130,7 +130,15 @@ const uxProjectsSpecifications = [
     },
 ]
 
-const codeProjectsSpecifications = [
+const frontendProjectsSpecifications = [
+    {
+        name: "photo-gallery",
+        link: "https://wheel-of-success-6577a.web.app/", // TODO: Add correct link
+        title: "Interaktivt fotogalleri",
+        description: "...med JavaScript och jQuery",
+        image: "wheel-of-success.png",
+        imageAlt: "Interaktivt fotogalleri"
+    },
     {
         name: "wheel-of-success",
         link: "https://wheel-of-success-6577a.web.app/",
@@ -163,9 +171,9 @@ if (uxProjects) {
     })
 }
 
-if (codeProjects) {
-    codeProjectsSpecifications.forEach(p => {
-        codeProjects.innerHTML += createProjectCard(p);
+if (frontendProjects) {
+    frontendProjectsSpecifications.forEach(p => {
+        frontendProjects.innerHTML += createProjectCard(p);
     })
 }
 
