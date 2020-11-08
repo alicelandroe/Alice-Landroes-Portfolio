@@ -36,6 +36,14 @@
   }
 }
 
+.hide-when-mobile {
+  display: none;
+
+  @media (min-width: $break-tablet) {
+    display: block;
+  }
+}
+
 #corner-blob-svg {
   position: absolute;
   top: 0;

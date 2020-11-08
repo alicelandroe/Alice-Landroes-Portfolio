@@ -157,10 +157,41 @@ const codeProjectsSpecifications = [
     },
 ]
 
-uxProjectsSpecifications.forEach(p => {
-    uxProjects.innerHTML += createProjectCard(p);
-})
+if (uxProjects) {
+    uxProjectsSpecifications.forEach(p => {
+        uxProjects.innerHTML += createProjectCard(p);
+    })
+}
 
-codeProjectsSpecifications.forEach(p => {
-    codeProjects.innerHTML += createProjectCard(p);
-})
+if (codeProjects) {
+    codeProjectsSpecifications.forEach(p => {
+        codeProjects.innerHTML += createProjectCard(p);
+    })
+}
+
+function createCornerBlobHtml() {
+    const cornerBlobHtml = `
+        <svg width="163" height="93" viewBox="0 0 163 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M102.352 54.3645H54.6413C25.3957 54.3645 2.55301 29.0974 5.49303 0H163V93C152.008 69.4311 128.358 54.3645 102.352 54.3645Z" fill="#D17446"/>
+            <path d="M115.715 55.0212H77.2111C47.4884 55.0212 24.1122 29.6204 26.5752 0H163V65L155.731 62.2752C142.935 57.4783 129.381 55.0212 115.715 55.0212Z" fill="#97CDC2"/>
+        </svg>
+    `
+
+    const div = document.createElement('div');
+    div.id = 'corner-blob-svg';
+
+    const isHomePage = window.location.pathname === "/" || window.location.pathname === "index.html";
+    if (!isHomePage) {
+        div.classList.add('hide-when-mobile');
+    }
+
+    div.innerHTML = cornerBlobHtml;
+
+    return div;
+}
+
+const isLargeScreen = document.querySelector('.nav-items').style.display == 'none'
+
+const cornerBlob = createCornerBlobHtml();
+
+header.appendChild(cornerBlob);
