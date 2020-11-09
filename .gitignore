@@ -68,3 +68,7 @@ node_modules/
 
 public/styles.css
 public/styles.css.map
+
+# compiled JavaScript
+
+public/*.js

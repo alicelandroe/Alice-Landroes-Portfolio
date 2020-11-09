@@ -33,22 +33,37 @@ const headerHtml = `
     </div>
 `;
 
-header.innerHTML = headerHtml;
+if (header) {
+    header.innerHTML = headerHtml;
+}
+
 const hamburger = document.querySelector('.hamburger');
-const openHamburger = document.querySelector('.open-hamburger');
+const openHamburger: HTMLElement | null = document.querySelector('.open-hamburger');
 const body = document.querySelector('body');
 
 function openHamburgerMenu() {
+    if (!openHamburger || !hamburger) {
+        return;
+    }
+
     openHamburger.style.left = '0vw';
     hamburger.classList.add('is-active');
 }
 
 function closeHamburgerMenu() {
+    if (!openHamburger || !hamburger) {
+        return;
+    }
+
     openHamburger.style.left = '-100vw';
     hamburger.classList.remove('is-active');
 }
 
 function toggleHamburgerMenu() {
+    if (!openHamburger) {
+        return;
+    }
+
     const isOpen = openHamburger.style.left === '0vw';
 
     if (isOpen) {
@@ -58,7 +73,9 @@ function toggleHamburgerMenu() {
     }
 }
 
-hamburger.addEventListener('click', toggleHamburgerMenu); 
+if (hamburger) {
+    hamburger.addEventListener('click', toggleHamburgerMenu); 
+}
 
 // END: HAMBURGER MENU
 
@@ -84,7 +101,7 @@ if (footer) {
 const uxProjects = document.querySelector("#ux-projects");
 const frontendProjects = document.querySelector("#frontend-projects");
 
-function createProjectCard(project) {
+function createProjectCard(project: any) {
     return `
         <div class="project project__${project.name}">
             <div class="project__text">
@@ -198,8 +215,14 @@ function createCornerBlobHtml() {
     return div;
 }
 
-const isLargeScreen = document.querySelector('.nav-items').style.display == 'none'
+const navItems: HTMLElement | null = document.querySelector('.nav-items');
+
+if (navItems) {
+    const isLargeScreen = navItems.style.display == 'none'
+}
 
 const cornerBlob = createCornerBlobHtml();
 
-header.appendChild(cornerBlob);
+if (header) {
+    header.appendChild(cornerBlob);
+}

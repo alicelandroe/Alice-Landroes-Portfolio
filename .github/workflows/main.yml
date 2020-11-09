@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Compile Sass
+      - name: Compile SASS and Typescript
         run: npm run build
 
       - name: Deploy to Firebase
