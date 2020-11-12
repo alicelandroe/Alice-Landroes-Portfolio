@@ -32,11 +32,9 @@
     transition: background-color 0.1s;
     box-sizing: border-box;
 
-    &__blue {
-        @include buttonColor($light-blue);
-    }
-
-    &__green {
-        @include buttonColor($light-green);
+    @each $name, $color in $project-colors {
+        &__#{$name} {
+            @include buttonColor($color);
+        }
     }
 }

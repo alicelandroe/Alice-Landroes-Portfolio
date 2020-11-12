@@ -103,7 +103,7 @@ const frontendProjects = document.querySelector("#frontend-projects");
 
 function createProjectCard(project: any) {
     return `
-        <div class="project project__${project.name}">
+        <div class="project project__${project.color}">
             <div class="project__text">
                 <h3 class="project__title">${project.title}</h3>
                 <p class="project__description">
@@ -122,7 +122,7 @@ function createProjectCard(project: any) {
 
 const uxProjectsSpecifications = [
     {
-        name: "werkstad",
+        color: "orange",
         link: "project-werkstad.html",
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
@@ -130,7 +130,7 @@ const uxProjectsSpecifications = [
         imageAlt: "werkstad app picture"
     },
     {
-        name: "xperience",
+        color: "purple",
         link: "xperience.html",
         title: "Xperience",
         description: "Upplev hemmabio, på riktigt",
@@ -138,7 +138,7 @@ const uxProjectsSpecifications = [
         imageAlt: "werkstad app picture"
     },
     {
-        name: "werkstad",
+        color: "orange",
         link: "werkstad.html",
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
@@ -149,7 +149,7 @@ const uxProjectsSpecifications = [
 
 const frontendProjectsSpecifications = [
     {
-        name: "photo-gallery",
+        color: "blue",
         link: "project-photogallery.html", // TODO: Add correct link
         title: "Interaktivt fotogalleri",
         description: "...med JavaScript och jQuery",
@@ -157,15 +157,15 @@ const frontendProjectsSpecifications = [
         imageAlt: "Interaktivt fotogalleri"
     },
     {
-        name: "wheel-of-success",
-        link: "https://wheel-of-success-6577a.web.app/",
+        color: "peach",
+        link: "project-wheel-of-success.html",
         title: "Wheel of Success",
         description: "lorem ipson la da lita do",
         image: "wheel-of-success.png",
         imageAlt: "Wheel of success"
     },
     {
-        name: "dashboard",
+        color: "pink",
         link: "https://web-app-bb3f1.web.app/",
         title: "Web Dashboard",
         description: "lorem ipson la da lita do",
@@ -173,7 +173,7 @@ const frontendProjectsSpecifications = [
         imageAlt: "Web App Dashboard"
     },
     {
-        name: "api-project",
+        color: "green",
         link: "https://api-directory-cd3cb.web.app/",
         title: "API project",
         description: "lorem ipson la da lita do",
