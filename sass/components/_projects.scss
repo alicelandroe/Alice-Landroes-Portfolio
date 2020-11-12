@@ -93,13 +93,17 @@ h2 {
     align-items: center;
     flex-direction: column;
 
+    span {
+        font-family: $primary-font;
+    }
+
     span:first-of-type {
         font-size: 0.8rem;
         text-transform: uppercase;
     }
 
     span:last-of-type {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     @each $name, $color in $project-colors {
