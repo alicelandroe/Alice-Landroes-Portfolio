@@ -205,7 +205,7 @@ function createCornerBlobHtml() {
     const div = document.createElement('div');
     div.id = 'corner-blob-svg';
 
-    const isHomePage = window.location.pathname === "/" || window.location.pathname === "index.html";
+    const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
     if (!isHomePage) {
         div.classList.add('hide-when-mobile');
     }
