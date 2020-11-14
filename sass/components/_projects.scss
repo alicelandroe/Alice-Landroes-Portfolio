@@ -91,23 +91,29 @@ h2 {
 }
 
 .project-page-description {
-  margin-top: 130px;
-  margin-bottom: 140px;
   font-family: $fun-font;
   font-weight: lighter;
+  position: relative;
+  margin-top: -1px;
+  padding-bottom: 100px;
+  background-color: $orange;
 
   p {
     margin-top: 1.7rem;
     line-height: 1.5;
+    @include default-margin();
   }
 
   h3 {
     font-size: 1.8rem;
+    @include default-margin();
+
     margin-top: 3.3rem;
-    margin-bottom: -0.9rem;
 
     &:first-of-type {
+      margin-top: 0;
       margin-bottom: 1.2rem;
+      padding-top: 50px;
     }
   }
 
@@ -147,4 +153,35 @@ h2 {
       }
     }
   }
+}
+
+.top-triangles {
+  display: flex;
+}
+
+.right-triangle {
+  color: $orange;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50vw solid $orange;
+  border-right: 0vw solid transparent;
+}
+
+.left-triangle {
+  color: $orange;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 50vw solid $orange;
+}
+
+.down-triangle {
+  color: $orange;
+  width: 0;
+  height: 0;
+  border-top: 50px solid $orange;
+  border-left: 50vw solid transparent; /* check border size here! */
+  border-right: 50vw solid transparent; /* and here! */
 }
