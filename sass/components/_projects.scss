@@ -28,6 +28,11 @@ h2 {
 
   img {
     width: 100%;
+    max-width: 600px;
+
+    @media only screen and (min-width: $break-tablet) {
+      max-width: 400px;
+    }
   }
 }
 

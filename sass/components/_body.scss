@@ -1,23 +1,28 @@
 body {
-    margin: 0px;
-    background-color: $pink-light;
-    overflow-x: hidden;
+  margin: 0px;
+  background-color: $pink-light;
+  overflow-x: hidden;
 }
 
 .page-content {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 300px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 300px;
 
-    @media only screen and (min-width: $break-small-tablet) {
-        max-width: 400px;
-    }
+  @media only screen and (min-width: $break-small-tablet) {
+    max-width: 400px;
+  }
 
-    @media only screen and (min-width: $break-tablet) {
-        max-width: none;
-    }
+  @media only screen and (min-width: $break-tablet) {
+    max-width: none;
 
-    @media only screen and (min-width: $break-desktop) {
-        max-width: 1100px;
+    &__above-fold {
+      display: flex;
+      margin-top: 50px;
     }
+  }
+
+  @media only screen and (min-width: $break-desktop) {
+    max-width: 1100px;
+  }
 }
