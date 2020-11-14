@@ -149,6 +149,22 @@ const uxProjectsSpecifications = [
 
 const frontendProjectsSpecifications = [
     {
+        color: "pink",
+        link: "project-web-app.html",
+        title: "Web Dashboard",
+        description: "lorem ipson la da lita do",
+        image: "web app card image.png",
+        imageAlt: "Web App Dashboard"
+    },
+    {
+        color: "green",
+        link: "project-api-directory.html",
+        title: "API project",
+        description: "lorem ipson la da lita do",
+        image: "api project card image.png",
+        imageAlt: "API project"
+    },
+    {
         color: "blue",
         link: "project-photogallery.html", // TODO: Add correct link
         title: "Interaktivt fotogalleri",
@@ -161,24 +177,8 @@ const frontendProjectsSpecifications = [
         link: "project-wheel-of-success.html",
         title: "Wheel of Success",
         description: "lorem ipson la da lita do",
-        image: "wheel-of-success.png",
+        image: "wheel of success card image.png",
         imageAlt: "Wheel of success"
-    },
-    {
-        color: "pink",
-        link: "https://web-app-bb3f1.web.app/",
-        title: "Web Dashboard",
-        description: "lorem ipson la da lita do",
-        image: "web-app.png",
-        imageAlt: "Web App Dashboard"
-    },
-    {
-        color: "green",
-        link: "https://api-directory-cd3cb.web.app/",
-        title: "API project",
-        description: "lorem ipson la da lita do",
-        image: "api.png",
-        imageAlt: "API project"
     },
 ]
 
