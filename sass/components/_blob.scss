@@ -44,6 +44,12 @@
   }
 }
 
+.hide-when-tablet {
+  @media (min-width: $break-tablet) {
+    display: none;
+  }
+}
+
 #corner-blob-svg {
   position: absolute;
   top: 0;
@@ -56,6 +62,5 @@
     }
 
     width: 275px;
-
   }
 }
