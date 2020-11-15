@@ -91,7 +91,7 @@ h2 {
 }
 
 .project-page-description {
-  font-family: $fun-font;
+  font-family: $primary-font;
   font-weight: lighter;
   position: relative;
   margin-top: -1px;
@@ -109,10 +109,10 @@ h2 {
     @include default-margin();
 
     margin-top: 3.3rem;
+    margin-bottom: 0.5rem;
 
     &:first-of-type {
       margin-top: 0;
-      margin-bottom: 1.2rem;
       padding-top: 50px;
     }
   }
