@@ -5,12 +5,18 @@ body {
 }
 
 .page-content {
-  @media only screen and (min-width: $break-tablet) {
+  &__above-fold {
+    @include default-margin();
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (min-width: $break-desktop) {
     max-width: none;
 
     &__above-fold {
       display: flex;
       margin-top: 50px;
+      justify-content: center;
     }
   }
 }

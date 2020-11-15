@@ -59,6 +59,7 @@ h2 {
 }
 
 .project-page-section {
+  @include default-margin();
   margin-top: 4rem;
 
   line-height: 1.5;
@@ -119,6 +120,15 @@ h2 {
 
   &__short {
     margin-bottom: 50px;
+  }
+
+  &__content {
+    @media only screen and (min-width: $break-desktop) {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-top: 80px;
+      display: flex;
+    }
   }
 }
 

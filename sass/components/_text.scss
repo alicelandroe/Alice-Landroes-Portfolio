@@ -40,10 +40,6 @@ strong {
   margin-top: 50px;
 }
 
-.page-content__above-fold {
-  @include default-margin();
-}
-
 .page-titles {
   font-family: $primary-font;
   font-weight: normal;
