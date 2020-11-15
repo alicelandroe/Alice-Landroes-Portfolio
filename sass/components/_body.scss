@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  @include default-margin();
+}
+
 .page-content {
   &__above-fold {
     @include default-margin();
