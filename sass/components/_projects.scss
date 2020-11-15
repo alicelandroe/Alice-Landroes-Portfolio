@@ -86,15 +86,29 @@ h2 {
     }
   }
 
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   @media only screen and (min-width: $break-desktop) {
+    video {
+      width: 300px;
+    }
+
     p,
     h3,
-    figure,
     li {
       width: 500px;
     }
-    table {
+    table,
+    figure {
       max-width: 800px;
+    }
+
+    .small-image {
+      width: 500px;
     }
   }
 
