@@ -164,14 +164,14 @@ const frontendProjectsSpecifications = [
         image: "api project card image.png",
         imageAlt: "API project"
     },
-    {
-        color: "blue",
-        link: "project-photogallery.html", // TODO: Add correct link
-        title: "Interaktivt fotogalleri",
-        description: "...med JavaScript och jQuery",
-        image: "photo-gallery.png",
-        imageAlt: "Interaktivt fotogalleri"
-    },
+    // {
+    //     color: "blue",
+    //     link: "project-photogallery.html", // TODO: Add correct link
+    //     title: "Interaktivt fotogalleri",
+    //     description: "...med JavaScript och jQuery",
+    //     image: "photo-gallery.png",
+    //     imageAlt: "Interaktivt fotogalleri"
+    // },
     {
         color: "peach",
         link: "project-wheel-of-success.html",
