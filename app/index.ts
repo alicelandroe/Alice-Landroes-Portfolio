@@ -131,7 +131,7 @@ const uxProjectsSpecifications = [
     },
     {
         color: "purple",
-        link: "xperience.html",
+        link: "project-xperience.html",
         title: "Xperience",
         description: "Upplev hemmabio, på riktigt",
         image: "xperience-card-image.png",
@@ -139,9 +139,9 @@ const uxProjectsSpecifications = [
     },
     {
         color: "orange",
-        link: "werkstad.html",
-        title: "Werkstad",
-        description: "Träffa folk som vill göra världen bättre",
+        link: "project-marks-kommun.html",
+        title: "Kommunens coronasida",
+        description: "Gör det lättare att hitta information om pandemin",
         image: "werkstad-hand-photo.png",
         imageAlt: "werkstad app picture"
     },
