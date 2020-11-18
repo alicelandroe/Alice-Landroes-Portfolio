@@ -1,27 +1,19 @@
 .button {
-    background-color: #b69191;
-    padding: 10px 15px;
-    border-radius: 6px;
-    font-family: $primary-font;
-    font-weight: 800;
-    font-size: 0.8rem;
-    color: #332e2e;
-    text-decoration: none;
-    @media only screen and (min-width: $break-small-tablet) {
-        font-size: 1rem;
-    }
+  background-color: #b69191;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-family: $primary-font;
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: #332e2e;
+  text-decoration: none;
+  @media only screen and (min-width: $break-small-tablet) {
+    font-size: 1rem;
+  }
 }
 
-@mixin buttonColor($color) {
-    background-color: $color;
-    color: darken($color, 90);
-
-    &:hover {
-        background-color: lighten($color, 5);
-    }
-}
-
-.large-button {
+@each $color-name, $color-value in $project-colors {
+  .large-button__#{$color-name} {
     display: block;
     width: 100%;
     padding: 15px;
@@ -32,9 +24,11 @@
     transition: background-color 0.1s;
     box-sizing: border-box;
 
-    @each $name, $color in $project-colors {
-        &__#{$name} {
-            @include buttonColor($color);
-        }
+    background-color: $color-value;
+    color: darken($color-value, 90);
+
+    &:hover {
+      background-color: lighten($color-value, 5);
     }
+  }
 }

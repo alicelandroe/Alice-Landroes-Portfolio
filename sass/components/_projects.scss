@@ -160,7 +160,13 @@ h2 {
   position: relative;
   margin-top: -1px;
   padding-bottom: 100px;
-  background-color: $orange;
+
+  @each $color-name, $color-value in $project-colors {
+    &__#{$color-name} {
+      @extend .project-page-description;
+      background-color: $color-value;
+    }
+  }
 
   p {
     margin-top: 1.7rem;
@@ -235,37 +241,39 @@ h2 {
   }
 }
 
-.top-triangles {
-  display: flex;
-}
+@each $color-name, $color-value in $project-colors {
+  .top-triangles {
+    display: flex;
+  }
 
-.right-triangle {
-  color: $orange;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 50vw solid $orange;
-  border-right: 0vw solid transparent;
-}
+  .right-triangle__#{$color-name} {
+    color: $color-value;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 50vw solid $color-value;
+    border-right: 0vw solid transparent;
+  }
 
-.left-triangle {
-  color: $orange;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 0 solid transparent;
-  border-right: 50vw solid $orange;
-}
+  .left-triangle__#{$color-name} {
+    color: $color-value;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 0 solid transparent;
+    border-right: 50vw solid $color-value;
+  }
 
-.down-triangle {
-  color: $orange;
-  width: 0;
-  height: 0;
-  border-top: 50px solid $orange;
-  border-left: 50vw solid transparent;
-  border-right: 50vw solid transparent;
+  .down-triangle__#{$color-name} {
+    color: $color-value;
+    width: 0;
+    height: 0;
+    border-top: 50px solid $color-value;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
 
-  @media only screen and (min-width: $break-desktop) {
-    margin-bottom: 100px;
+    @media only screen and (min-width: $break-desktop) {
+      margin-bottom: 100px;
+    }
   }
 }

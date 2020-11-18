@@ -154,15 +154,15 @@ const frontendProjectsSpecifications = [
     color: "blue",
     link: "project-web-app.html",
     title: "Web Dashboard",
-    description: "lorem ipson la da lita do",
+    description: "lorem ipson la da lita do", // ALICE: Add description
     image: "web app card image.png",
     imageAlt: "Web App Dashboard",
   },
   {
     color: "green",
-    link: "project-api-directory.html",
+    link: "project-photogallery.html",
     title: "API project",
-    description: "lorem ipson la da lita do",
+    description: "lorem ipson la da lita do", // ALICE: Add description
     image: "api project card image.png",
     imageAlt: "API project",
   },
@@ -178,7 +178,7 @@ const frontendProjectsSpecifications = [
     color: "peach",
     link: "project-wheel-of-success.html",
     title: "Wheel of Success",
-    description: "lorem ipson la da lita do",
+    description: "lorem ipson la da lita do", // ALICE: Add description
     image: "wheel of success card image.png",
     imageAlt: "Wheel of success",
   },
