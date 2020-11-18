@@ -11,4 +11,15 @@
     img {
         width: 100%;
     }
+    @media only screen and (min-width: $break-tablet) {
+        display: flex;
+
+        h1 {
+            margin-top: 0px;
+        }
+        
+        h1, p {
+            margin-left: 30px;
+        }
+    }
 }
