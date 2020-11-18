@@ -8,7 +8,6 @@ h2 {
 .project-cards {
   @media only screen and (min-width: $break-tablet) {
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
   }

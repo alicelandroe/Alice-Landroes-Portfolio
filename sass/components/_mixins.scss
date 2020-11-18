@@ -4,7 +4,7 @@
   max-width: 300px;
 
   @media only screen and (min-width: $break-small-tablet) {
-    max-width: 400px;
+    max-width: 600px;
   }
 
   @media only screen and (min-width: $break-desktop) {
@@ -28,6 +28,7 @@
   @media only screen and (min-width: $break-tablet) {
     margin: 0;
     margin-bottom: 40px;
+    margin-right: 30px;
     width: 46%;
   }
 
