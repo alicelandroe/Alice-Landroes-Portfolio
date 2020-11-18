@@ -210,6 +210,7 @@ h2 {
 
 .next-page-box {
   height: 100px;
+  margin-top: 4rem;
   display: block;
   text-decoration: none;
   display: flex;
@@ -229,18 +230,18 @@ h2 {
   span:last-of-type {
     font-size: 1.6rem;
   }
+}
 
-  @each $name, $color in $project-colors {
-    &__#{$name} {
-      background-color: $color;
+@each $name, $color in $project-colors {
+  .next-page-box__#{$name} {
+    @extend .next-page-box;
+    background-color: $color;
 
-      span {
-        color: color.scale($color, $lightness: -80%);
-      }
+    span {
+      color: color.scale($color, $lightness: -80%);
     }
   }
 }
-
 @each $color-name, $color-value in $project-colors {
   .top-triangles {
     display: flex;
