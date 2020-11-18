@@ -132,7 +132,7 @@ const uxProjectsSpecifications = [
 
 const frontendProjectsSpecifications = [
   {
-    color: "blue",
+    color: "pink",
     link: "project-web-app.html",
     title: "Web Dashboard",
     description: "Responsiva JavaScript diagram", // ALICE: Add description
