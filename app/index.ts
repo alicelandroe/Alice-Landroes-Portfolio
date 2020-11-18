@@ -135,7 +135,7 @@ const frontendProjectsSpecifications = [
     color: "blue",
     link: "project-web-app.html",
     title: "Web Dashboard",
-    description: "lorem ipson la da lita do", // ALICE: Add description
+    description: "Responsiva JavaScript diagram", // ALICE: Add description
     image: "web app card image.png",
     imageAlt: "Web App Dashboard",
   },
