@@ -127,7 +127,7 @@ const uxProjectsSpecifications = [
         title: "Werkstad",
         description: "Träffa folk som vill göra världen bättre",
         image: "werkstad-hand-photo.png",
-        imageAlt: "werkstad app picture"
+        imageAlt: "werkstad appen"
     },
     {
         color: "purple",
@@ -135,21 +135,21 @@ const uxProjectsSpecifications = [
         title: "Xperience",
         description: "Upplev hemmabio, på riktigt",
         image: "xperience-card-image.png",
-        imageAlt: "werkstad app picture"
+        imageAlt: "xperience hemsidan"
     },
     {
-        color: "orange",
+        color: "pink",
         link: "project-marks-kommun.html",
         title: "Kommunens coronasida",
         description: "Gör det lättare att hitta information om pandemin",
-        image: "werkstad-hand-photo.png",
-        imageAlt: "werkstad app picture"
+        image: "marks kommun project card image.png",
+        imageAlt: "mark kommuns coronahemsida"
     },
 ]
 
 const frontendProjectsSpecifications = [
     {
-        color: "pink",
+        color: "blue",
         link: "project-web-app.html",
         title: "Web Dashboard",
         description: "lorem ipson la da lita do",
