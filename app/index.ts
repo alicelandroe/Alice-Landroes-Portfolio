@@ -159,7 +159,7 @@ const frontendProjectsSpecifications = [
     color: "peach",
     link: "project-wheel-of-success.html",
     title: "Wheel of Success",
-    description: "lorem ipson la da lita do", // ALICE: Add description
+    description: "Ett ordgissningsspel", // ALICE: Add description
     image: "wheel of success card image.png",
     imageAlt: "Wheel of success",
   },
