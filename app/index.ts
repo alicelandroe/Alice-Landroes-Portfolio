@@ -141,9 +141,9 @@ const frontendProjectsSpecifications = [
   },
   {
     color: "green",
-    link: "project-photogallery.html",
-    title: "API project",
-    description: "lorem ipson la da lita do", // ALICE: Add description
+    link: "project-api.html",
+    title: "Anställdskatalog",
+    description: "med API, CSS, HTML och JavaScript", // ALICE: Add description
     image: "api project card image.png",
     imageAlt: "API project",
   },
