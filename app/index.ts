@@ -81,25 +81,6 @@ if (hamburger) {
 
 // END: HAMBURGER MENU
 
-const footer = document.querySelector("footer");
-
-const footerHtml = `
-    <footer>
-        <div class="footer__links">
-            <a>LinkedIn</a>
-            <a>GitHub</a>
-            <a>Kontakt</a>
-        </div>
-        <div class="footer__copyright">
-            © Alice Landrö 2020
-        </div>
-    </footer>`;
-
-if (footer) {
-  footer.classList.add("footer");
-  footer.innerHTML = footerHtml;
-}
-
 const uxProjects = document.querySelector("#ux-projects");
 const frontendProjects = document.querySelector("#frontend-projects");
 
