@@ -75,7 +75,7 @@
         }
     }
 
-    @media only screen and (min-width: $break-desktop) {
+    @media only screen and (min-width: 1300px) {
         font-size: 1.3em;
         &__page-links {
             padding-right: 200px;
