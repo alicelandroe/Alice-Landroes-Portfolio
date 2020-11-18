@@ -5,4 +5,25 @@
     &__link {
         color: black;
     }
+
+    @media only screen and (min-width: $break-tablet) {
+        width: 60%;
+
+        &__text {
+            width: 550px;
+        }
+    }
+    @media only screen and (min-width: $break-big-desktop) {
+        h1 {
+            font-size: 3.1rem;
+            margin-top: 150px;
+        }
+
+        p, a {
+            font-size: 1.5rem;
+        }
+    }
+
 }
+
+
