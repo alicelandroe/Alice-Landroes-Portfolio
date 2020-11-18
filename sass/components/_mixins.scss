@@ -47,6 +47,10 @@
     @media only screen and (min-width: $break-tablet) {
       max-width: 110px;
     }
+
+    @media only screen and (min-width: $break-desktop) {
+      max-width: 150px;
+    }
   }
 
   .project__image {
