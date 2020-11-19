@@ -116,7 +116,7 @@ const uxProjectsSpecifications = [
     color: "pink",
     link: "project-marks-kommun.html",
     title: "Kommunens coronasida",
-    description: "Gör det lättare att hitta information om pandemin",
+    description: "Enklare att hitta coronainformation",
     image: "marks kommun project card image.png",
     imageAlt: "mark kommuns coronahemsida",
   },
@@ -124,7 +124,7 @@ const uxProjectsSpecifications = [
     color: "purple",
     link: "project-xperience.html",
     title: "Xperience",
-    description: "Upplev hemmabio, på riktigt",
+    description: "Upplev hemmabio, <br> på riktigt",
     image: "xperience-card-image.png",
     imageAlt: "xperience hemsidan"
   },
