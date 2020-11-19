@@ -16,7 +16,6 @@ body {
 
   @media only screen and (min-width: $break-desktop) {
     max-width: none;
-
     &__above-fold {
       display: flex;
       margin-top: 50px;
@@ -27,4 +26,11 @@ body {
 
 svg {
   display: block;
+}
+
+@media only screen and (min-width: $break-desktop) {
+  .projects {
+    margin-bottom: 100px;
+    
+  }
 }
