@@ -112,27 +112,27 @@ const uxProjectsSpecifications = [
     image: "werkstad-hand-photo.png",
     imageAlt: "werkstad appen",
   },
-  /*     {
-        color: "purple",
-        link: "project-xperience.html",
-        title: "Xperience",
-        description: "Upplev hemmabio, på riktigt",
-        image: "xperience-card-image.png",
-        imageAlt: "xperience hemsidan"
-    }, */
-  /*   {
+  {
     color: "pink",
     link: "project-marks-kommun.html",
     title: "Kommunens coronasida",
     description: "Gör det lättare att hitta information om pandemin",
     image: "marks kommun project card image.png",
     imageAlt: "mark kommuns coronahemsida",
-  }, */
+  },
+  {
+    color: "purple",
+    link: "project-xperience.html",
+    title: "Xperience",
+    description: "Upplev hemmabio, på riktigt",
+    image: "xperience-card-image.png",
+    imageAlt: "xperience hemsidan"
+  },
 ];
 
 const frontendProjectsSpecifications = [
   {
-    color: "pink",
+    color: "blue",
     link: "project-web-app.html",
     title: "Web Dashboard",
     description: "Responsiva JavaScript diagram", // ALICE: Add description
