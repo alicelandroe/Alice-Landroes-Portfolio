@@ -24,8 +24,8 @@ const headerHtml = `
             <a href="index.html">Alice Landrö</a>
         </div>
         <div class="nav-items__page-links">
-            <a href="about.html">Om mig</a>
             <a href="projects.html">Projekt</a>
+            <a href="about.html">Om mig</a>
         </div>
         <div id="contact-link">
             <a href="contact.html">Kontakt &#10132; </a>
