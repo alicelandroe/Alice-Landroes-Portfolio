@@ -57,6 +57,23 @@ h2 {
   }
 }
 
+.app-video,
+.desktop-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: $break-desktop) {
+  .app-video {
+    width: 300px;
+  }
+
+  .desktop-video {
+    width: 750px;
+  }
+}
+
 .project-page-section {
   @include default-margin();
   margin-top: 11rem;
@@ -85,17 +102,7 @@ h2 {
     }
   }
 
-  video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
   @media only screen and (min-width: $break-desktop) {
-    video {
-      width: 300px;
-    }
-
     p,
     h3,
     li {
