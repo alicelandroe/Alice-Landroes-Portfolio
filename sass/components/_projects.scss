@@ -57,6 +57,11 @@ h2 {
   }
 }
 
+figcaption {
+  font-style: italic;
+  margin-bottom: 2.5em;
+}
+
 .app-video,
 .desktop-video {
   width: 100%;
@@ -217,7 +222,7 @@ h2 {
 
 .next-page-box {
   height: 170px;
-  margin-top: 4rem;
+  margin-top: 8rem;
   display: block;
   text-decoration: none;
   display: flex;

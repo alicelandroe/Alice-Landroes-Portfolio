@@ -12,6 +12,16 @@
   }
 }
 
+@media only screen and (min-width: $break-small-tablet) {
+  .frontend-project-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    & div {
+      width: 45%;
+    }
+  }
+}
+
 @each $color-name, $color-value in $project-colors {
   .large-button__#{$color-name} {
     display: block;
@@ -29,6 +39,8 @@
 
     &:hover {
       background-color: lighten($color-value, 5);
+    }
+    @media only screen and (min-width: $break-small-tablet) {
     }
   }
 }
