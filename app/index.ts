@@ -11,24 +11,24 @@ const headerHtml = `
     <!-- hamburger menu opened -->
     <div class="open-hamburger">
         <div class="mobile-nav-items">
-        <a href="index.html">Hem</a>
-        <a href="about.html">Om mig</a>
-        <a href="projects.html">Projekt</a>
-        <a href="contact.html">Kontakt</a>
+        <a href="index.html" tabindex="-1">Hem</a>
+        <a href="about.html" tabindex="-1">Om mig</a>
+        <a href="projects.html" tabindex="-1">Projekt</a>
+        <a href="contact.html" tabindex="-1">Kontakt</a>
         </div>
     </div>
 
     <!-- navigation: tablet size and up -->
     <div class="nav-items">
         <div>
-            <a href="index.html">Alice Landrö</a>
+            <a href="index.html" tabindex="0">Alice Landrö</a>
         </div>
         <div class="nav-items__page-links">
-            <a href="projects.html">Projekt</a>
-            <a href="about.html">Om mig</a>
+            <a href="projects.html" tabindex="0">Projekt</a>
+            <a href="about.html" tabindex="0">Om mig</a>
         </div>
         <div id="contact-link">
-            <a href="contact.html">Kontakt &#10132; </a>
+            <a href="contact.html" tabindex="0">Kontakt &#10132; </a>
         </div>
     </div>
 `;
@@ -126,7 +126,7 @@ const uxProjectsSpecifications = [
     title: "Xperience",
     description: "Upplev hemmabio, <br> på riktigt",
     image: "xperience-card-image.png",
-    imageAlt: "xperience hemsidan"
+    imageAlt: "xperience hemsidan",
   },
 ];
 
