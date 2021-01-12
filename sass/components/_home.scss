@@ -2,7 +2,7 @@
   &__title {
     font-family: $secondary-font;
     text-align: left;
-    padding-top: 30vh;
+    padding-top: 25vh;
     margin-left: 78px;
     margin-right: 50px;
 
@@ -13,7 +13,7 @@
       font-size: 2.6rem;
       line-height: 1.2;
     }
-    
+
     @media only screen and (min-width: $break-desktop) {
       margin-left: 420px;
       padding-top: 20vh;
@@ -29,5 +29,4 @@
       line-height: 1.4;
     }
   }
-
 }
