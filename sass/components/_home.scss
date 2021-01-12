@@ -6,9 +6,9 @@
     margin-left: 78px;
     margin-right: 50px;
 
-    @media only screen and (min-width: $break-tablet) {
+    @media only screen and (min-width: $break-small-tablet) {
       width: 48%;
-      max-width: 400px;
+      max-width: 420px;
       margin-left: calc(90% - (255px + 10vw + 60px + 53px));
       font-size: 2.6rem;
       line-height: 1.2;
