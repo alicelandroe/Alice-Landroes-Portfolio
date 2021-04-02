@@ -105,12 +105,12 @@ function createProjectCard(project: any) {
 
 const uxProjectsSpecifications = [
   {
-    color: "orange",
-    link: "project-werkstad.html",
-    title: "Werkstad",
-    description: "Träffa folk som vill göra världen bättre",
-    image: "werkstad-hand-photo.png",
-    imageAlt: "werkstad appen",
+    color: "peach",
+    link: "project-treddy.html",
+    title: "Treddy",
+    description: "Design av hemsida för en startup",
+    image: "treddy-card-image.png",
+    imageAlt: "Treddy hemsida",
   },
   {
     color: "pink",
@@ -121,12 +121,12 @@ const uxProjectsSpecifications = [
     imageAlt: "mark kommuns coronahemsida",
   },
   {
-    color: "purple",
-    link: "project-xperience.html",
-    title: "Xperience",
-    description: "Upplev hemmabio, <br> på riktigt",
-    image: "xperience-card-image.png",
-    imageAlt: "xperience hemsidan",
+    color: "orange",
+    link: "project-werkstad.html",
+    title: "Werkstad",
+    description: "Träffa folk som vill göra världen bättre",
+    image: "werkstad-hand-photo.png",
+    imageAlt: "werkstad appen",
   },
 ];
 
