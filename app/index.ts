@@ -86,20 +86,17 @@ const frontendProjects = document.querySelector("#frontend-projects");
 
 function createProjectCard(project: any) {
   return `
-        <div class="project project__${project.color}">
+        <a href="${project.link}" class="project project__${project.color}">
             <div class="project__text">
                 <h3 class="project__title">${project.title}</h3>
                 <p class="project__description">
                     ${project.description}
                 </p>
-                <a href="${project.link}" class="project__button"
-                >Se projekt</a
-                >
             </div>
             <div class="project__image">
                 <img src="images/${project.image}" alt="${project.imageAlt}" />
             </div>
-        </div>
+        </a>
     `;
 }
 
