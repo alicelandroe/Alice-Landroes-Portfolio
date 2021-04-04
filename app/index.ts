@@ -129,7 +129,7 @@ const uxProjectsSpecifications = [
 
 const frontendProjectsSpecifications = [
   {
-    color: "blue",
+    color: "purple",
     link: "project-web-app.html",
     title: "Web Dashboard",
     description: "Responsiva JavaScript diagram", // ALICE: Add description
@@ -137,7 +137,7 @@ const frontendProjectsSpecifications = [
     imageAlt: "Web App Dashboard",
   },
   {
-    color: "purple",
+    color: "pink",
     link: "project-api.html",
     title: "Anställdskatalog",
     description: "med API, CSS, HTML och JavaScript", // ALICE: Add description
@@ -153,7 +153,7 @@ const frontendProjectsSpecifications = [
   //     imageAlt: "Interaktivt fotogalleri"
   // },
   {
-    color: "peach",
+    color: "blue",
     link: "project-wheel-of-success.html",
     title: "Wheel of Success",
     description: "Ett ordgissningsspel", // ALICE: Add description
