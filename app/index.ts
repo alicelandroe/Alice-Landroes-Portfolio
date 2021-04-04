@@ -110,7 +110,7 @@ const uxProjectsSpecifications = [
     imageAlt: "Treddy hemsida",
   },
   {
-    color: "pink",
+    color: "green",
     link: "project-marks-kommun.html",
     title: "Kommunens coronasida",
     description: "Enklare att hitta coronainformation",
@@ -137,7 +137,7 @@ const frontendProjectsSpecifications = [
     imageAlt: "Web App Dashboard",
   },
   {
-    color: "green",
+    color: "purple",
     link: "project-api.html",
     title: "Anställdskatalog",
     description: "med API, CSS, HTML och JavaScript", // ALICE: Add description
