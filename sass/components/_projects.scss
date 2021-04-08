@@ -74,16 +74,25 @@ figcaption {
   margin-top: 60px;
 }
 
-.goals-container img {
-  width: 25%;
+@media only screen and (min-width: $break-desktop) {
+  .goal-big-screens {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.goals-container p {
-  margin-top: 0px;
+.goals-container img {
+  width: 25%;
+  @media only screen and (min-width: $break-desktop) {
+    width: 15%;
+  }
 }
 
 .goal {
   margin-bottom: 50px;
+  @media only screen and (min-width: $break-desktop) {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (min-width: $break-desktop) {
@@ -144,6 +153,12 @@ figcaption {
     margin: 0;
   }
 
+  .goals-container p {
+    margin-top: 0px;
+    @media only screen and (min-width: $break-desktop) {
+      width: 280px;
+    }
+  }
   @media only screen and (min-width: $break-desktop) {
     max-width: 1000px;
     margin: 0 auto;
