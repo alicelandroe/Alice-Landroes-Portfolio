@@ -90,7 +90,7 @@ figcaption {
 @media only screen and (min-width: $break-desktop) {
   .goal-big-screens {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
