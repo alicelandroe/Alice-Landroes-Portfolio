@@ -70,7 +70,7 @@ figcaption {
   object-fit: cover;
 }
 
-// GOALS
+// GOALS containers
 .goals-container {
   margin-top: 60px;
   @media only screen and (min-width: $break-desktop) {
@@ -99,13 +99,13 @@ figcaption {
   }
 }
 
+// USER TESTING containers
 .user-testing-container {
   &__img {
     display: none;
   }
 }
 
-// USER TESTING
 .user-testing-container {
   @media only screen and (min-width: $break-desktop) {
     display: flex;
@@ -116,6 +116,16 @@ figcaption {
     &__img {
       display: block;
       margin: auto 0;
+    }
+  }
+}
+
+// IMAGES containers
+@media only screen and (min-width: $break-desktop) {
+  .container-images {
+    display: flex;
+    &__imgage1 {
+      margin-right: 40px;
     }
   }
 }
@@ -162,7 +172,7 @@ figcaption {
     p,
     h3,
     li {
-      width: 500px;
+      width: 630px;
     }
     table,
     figure {
@@ -170,7 +180,7 @@ figcaption {
     }
 
     .small-image {
-      width: 500px;
+      width: 630px;
     }
   }
 
