@@ -70,6 +70,22 @@ figcaption {
   object-fit: cover;
 }
 
+.goals-container {
+  margin-top: 60px;
+}
+
+.goals-container img {
+  width: 25%;
+}
+
+.goals-container p {
+  margin-top: 0px;
+}
+
+.goal {
+  margin-bottom: 50px;
+}
+
 @media only screen and (min-width: $break-desktop) {
   .app-video {
     width: 300px;
