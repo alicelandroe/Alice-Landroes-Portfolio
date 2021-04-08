@@ -140,6 +140,9 @@ figcaption {
         width: 400px;
       }
     }
+    &__img4 {
+      margin-top: 80px;
+    }
   }
 }
 
@@ -149,6 +152,9 @@ figcaption {
     display: flex;
   }
   .container-images figure:first-of-type {
+    margin-right: 40px;
+  }
+  .container-images figure:nth-last-child(2) {
     margin-right: 40px;
   }
 }
