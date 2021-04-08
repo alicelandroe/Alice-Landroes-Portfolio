@@ -124,9 +124,9 @@ figcaption {
 @media only screen and (min-width: $break-desktop) {
   .container-images {
     display: flex;
-    &__imgage1 {
-      margin-right: 40px;
-    }
+  }
+  .container-images figure:first-of-type {
+    margin-right: 40px;
   }
 }
 
@@ -198,6 +198,19 @@ figcaption {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 135px;
+  }
+
+  // SKETCHES containers
+  @media only screen and (min-width: $break-desktop) {
+    .container-sketches {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .container-sketches figure {
+      margin-right: 40px;
+      width: 45%;
+    }
   }
 
   table {
