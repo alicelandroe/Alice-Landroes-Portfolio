@@ -110,12 +110,26 @@ figcaption {
   @media only screen and (min-width: $break-desktop) {
     display: flex;
 
-    &__text {
+    &__text,
+    &__text3 {
       margin-right: 120px;
+      margin-top: 50px;
     }
-    &__img {
+    &__img,
+    &__img3 {
       display: block;
-      margin: auto 0;
+      margin: auto;
+      margin-right: 50px;
+    }
+
+    &__text2 {
+      margin-top: 60px;
+    }
+    &__img2 {
+      margin-right: 50px;
+      & figure {
+        width: 400px;
+      }
     }
   }
 }
