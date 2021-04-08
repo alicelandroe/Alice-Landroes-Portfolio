@@ -99,15 +99,24 @@ figcaption {
   }
 }
 
+.user-testing-container {
+  &__img {
+    display: none;
+  }
+}
+
 // USER TESTING
 .user-testing-container {
-  display: flex;
+  @media only screen and (min-width: $break-desktop) {
+    display: flex;
 
-  &__text {
-    margin-right: 120px;
-  }
-  &__img {
-    margin: auto 0;
+    &__text {
+      margin-right: 120px;
+    }
+    &__img {
+      display: block;
+      margin: auto 0;
+    }
   }
 }
 
