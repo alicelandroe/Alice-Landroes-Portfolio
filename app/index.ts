@@ -1,4 +1,15 @@
 // HAMBURGER MENU
+
+console.log(`Hej! 
+
+Vad kul att du kikar här. 
+
+Jag har byggt denna sidan från scratch med HTML, SASS och Vanilla JS.  
+
+Letar ni efter en UX designer som har lite koll på kod också?
+
+Kontakta mig så snackar vi!`);
+
 const header = document.querySelector("header");
 const headerHtml = `
     <!-- hamburger menu -->
