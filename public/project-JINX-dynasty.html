@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <!-- 
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////    
+    
+Hej! 
+
+Vad kul att du kikar här. 
+
+Jag har byggt denna sidan från scratch med HTML, SASS och Vanilla JS.  
+
+Letar ni efter en UX designer som har lite koll på kod också?
+
+Kontakta mig så snackar vi!
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alice Landrö | JINX Dynasty</title>
+    <script defer src="/__/firebase/7.19.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="hamburger.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <div class="page-content">
+      <div class="page-content__above-fold">
+        <div class="page-titles">
+          <span>UI</span>
+          <h1>JINX Dynasty</h1>
+          <h2>Tillgänglighetsanpassning av hemsida</h2>
+        </div>
+        <div class="primary-image">
+          <img
+            src="images/Treddy-page-img.png"
+            height="338"
+            width="372"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="top-triangles">
+        <div class="right-triangle__dark-pink"></div>
+        <div class="left-triangle__dark-pink"></div>
+      </div>
+      <div class="project-page-description__dark-pink">
+        <div class="project-page-description__content">
+          <div>
+            <h3>Koncept</h3>
+            <p>
+              JINX Dynasty har de godaste Bao Buns jag någonsin ätit, och den
+              långa kön som bildas varje dag visar att jag inte är den ända som
+              uppskattar dem!
+              <br />
+              <br />
+              När jag besökte deras hemsida mötte jag tyvärr problem med
+              användbarhet och tillgänglighet, och vill därför föreslå en
+              alternativ design som är lättare att förstå och se.
+            </p>
+          </div>
+          <div>
+            <h3>Min roll</h3>
+            <p>Jag gjorde en redesign av hemsidan på två dagar efter jobbet.</p>
+            <br />
+            <p>
+              Jag tog fram en prototyp, testade den på min man, och gjorde små
+              ändringar. Detta var främst en övning i UI och
+              tillgängligetsanpassning av en design.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="down-triangle__dark-pink"></div>
+      <div class="project-page-section">
+        <span class="project-page-section__part">1. Problemet</span>
+        <h3>JINX Dynasty's nuvarande hemsida</h3>
+
+        <p>
+          Den nuvarande hemsidan (24e April 2022) har inte text som öppnår WCAGs
+          krav på kontrast. Informationen är överväldigande då alla bokstäver är
+          versaler och samma storlek, och det är svårt att se vilken information
+          som tillhör vilket matställe JINX har.
+        </p>
+
+        <div class="user-testing-container__img">
+          <video controls class="app-video">
+            <source
+              src="images/JINX Dynasty hemsida 24 April 2022.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag. Try with a different
+            browser! :)
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-page-section">
+      <span class="project-page-section__part">2. Resultat</span>
+      <h3>Min redesign</h3>
+      <p>
+        Jag grupperade informationen så det är lätt att se vilka öppetider,
+        adress, och meny passar vilket matställe. Jag fixade så att kontrasterna
+        möter WCAG kraven, samt tog bort onödiga element som chattfunktionen och
+        hamburgar menyn (som inte ledde någonstans) och la istället till reviews
+        och en egen sida för catering information och bokning. Det var en kul
+        övning!
+      </p>
+      <div class="user-testing-container__img">
+        <video controls class="app-video">
+          <source src="images/JINX Redesign result.mov" type="video/mp4" />
+          Your browser does not support the video tag. Try with a different
+          browser! :)
+        </video>
+      </div>
+    </div>
+
+    <a class="next-page-box__peach" href="project-treddy.html">
+      <span>nästa project</span>
+      <span>Treddy</span>
+    </a>
+  </body>
+  <script src="index.js"></script>
+</html>

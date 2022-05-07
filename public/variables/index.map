@@ -11,7 +11,7 @@
 		"@import 'breakpoints', 'typography', 'colors';",
 		"$break-small-tablet: 576px;\n$break-tablet: 768px;\n$break-desktop: 1024px;\n$break-big-desktop: 1300px;",
 		"@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap\");\n\n$primary-font: \"Open Sans\", sans-serif;\n$secondary-font: \"Quicksand\", sans-serif;\n",
-		"$pink-light: #edebe9;\n$dark-gray: #31454d;\n$light-blue: #87bfd5;\n$light-green: #97cdc2;\n$peach: #e8a27c;\n$pink: #e39ab5;\n$purple: #b8a2d8;\n$orange: #eab851;\n$green: #84a59d;\n\n$project-colors: (\n  \"orange\": $orange,\n  \"purple\": $purple,\n  \"peach\": $peach,\n  \"green\": $green,\n  \"blue\": $light-blue,\n  \"pink\": $pink,\n);\n"
+		"$pink-light: #edebe9;\n$dark-gray: #31454d;\n$light-blue: #87bfd5;\n$light-green: #97cdc2;\n$peach: #e8a27c;\n$pink: #e39ab5;\n$purple: #b8a2d8;\n$orange: #eab851;\n$green: #84a59d;\n$dark-pink: #e87e7e;\n\n$project-colors: (\n  \"orange\": $orange,\n  \"purple\": $purple,\n  \"peach\": $peach,\n  \"green\": $green,\n  \"blue\": $light-blue,\n  \"pink\": $pink,\n  \"dark-pink\": $dark-pink,\n);\n"
 	],
 	"names": [],
 	"mappings": "AEAA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,gFAAI"
